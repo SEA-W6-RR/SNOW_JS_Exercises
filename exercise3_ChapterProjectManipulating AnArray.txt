@@ -1,0 +1,18 @@
+// Exercise3_ChapterProjectManipulatingAnArray
+//
+const theList = ['Laurence', 'Svekis', true, 35, null, undefined, {test: 'one', score: 55}, ['one', 'two']];
+console.log(theList);
+theList.pop();
+console.log(theList);
+theList.shift();
+theList.splice(0, 0, "FIRST");
+console.log(theList);
+theList[3] = "hello World";
+theList[2] = "MIDDLE";
+console.log(theList);
+theList.pop();
+console.log(theList);
+theList.push("LAST");
+console.log(theList);
+theList.splice(4, 2);
+console.log(theList)

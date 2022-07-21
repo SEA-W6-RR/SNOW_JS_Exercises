@@ -1,0 +1,24 @@
+// Exercise3_ChapterProjectCompanyProductCatalog
+//
+const inventory = [];
+item1 = {
+  name: "NAME1",
+  model: "MODEL1",
+  cost: 17,
+  quantity: 1017
+};
+item2 = {
+  name: "NAME2",
+  model: "MODEL2",
+  cost: 4711,
+  quantity: 5
+};
+item3 = {
+  name: "NAME3",
+  model: "MODEL3",
+  cost: 99,
+  quantity: 111
+};
+inventory.push(item1, item2, item3);
+console.log(inventory);
+console.log(inventory[2].quantity)
